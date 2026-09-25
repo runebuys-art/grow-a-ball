@@ -2,17 +2,56 @@
 <html>
 <head>
     <title>Grow a Ball</title>
+
+    <style>
+        body {
+            margin: 0;
+            background: #101827;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 30px;
+            font-size: 45px;
+        }
+
+        #score {
+            font-size: 25px;
+        }
+
+        #ball {
+            width: 150px;
+            height: 150px;
+            background: #3498db;
+            border-radius: 50%;
+            margin: 50px auto;
+            cursor: pointer;
+        }
+
+        button {
+            padding: 12px 25px;
+            margin: 5px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
 </head>
 
 <body>
 
-<h1>🎈 GROW A BALL</h1>
+    <h1>🎈 GROW A BALL</h1>
 
-<p>Mijn eerste game werkt!</p>
+    <div id="score">Score: 0</div>
 
-<button onclick="alert('YES! Het werkt!')">
-    KLIK MIJ
-</button>
+    <div id="ball"></div>
+
+    <button>🛒 SHOP</button>
+    <button>🎨 BALLS</button>
+    <button>⚡ UPGRADES</button>
 
 </body>
 </html>
